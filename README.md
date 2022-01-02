@@ -1,4 +1,4 @@
-#Employee Payroll Service (FastAPI - MySQL Without ORM)
+**#Employee Payroll Service (FastAPI - MySQL Without ORM)**
 
 >installation process
 
@@ -15,7 +15,7 @@ pip install mysql-connector-python
 3. @app.post("/add_employee/") : This API adds the new employee to the database table.
 4. @app.delete("/delete_employee/{id}") : This API used to delete the employee detail from database.
 5. @app.put("/update_employee/{id}") : This API used to update the employee details.
-6.@app.get("/") : Home Page.
+6. @app.get("/") : Home Page.
 
 
 >Folder Structure
