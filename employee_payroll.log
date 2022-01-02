@@ -1,0 +1,12 @@
+INFO :: root :: 2022-01-02 19:31:06,726 :: Trying to establish the database connection
+INFO :: root :: 2022-01-02 19:31:06,757 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-02 19:31:06,961 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-02 19:31:06,992 :: Started server process [15304]
+INFO :: uvicorn.error :: 2022-01-02 19:31:06,992 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-02 19:31:06,992 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-02 19:31:06,992 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-02 19:31:19,251 :: Successfully Get All Employee Details
+INFO :: uvicorn.error :: 2022-01-02 20:14:10,060 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-02 20:14:10,185 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-02 20:14:10,186 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-02 20:14:10,187 :: Finished server process [15304]
