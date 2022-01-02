@@ -20,6 +20,7 @@ pip install mysql-connector-python
 
 >Folder Structure
 
+```
 EmployeePayrollMgmt
 ├── myenv
 ├── .env
@@ -31,3 +32,4 @@ EmployeePayrollMgmt
 ├── models.py
 ├── requirement.txt
 └── README.md
+```
