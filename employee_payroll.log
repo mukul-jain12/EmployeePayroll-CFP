@@ -805,3 +805,145 @@ INFO :: uvicorn.error :: 2022-01-05 07:19:24,474 :: Finished server process [267
 INFO :: root :: 2022-01-05 07:19:24,927 :: Trying to establish the database connection
 INFO :: root :: 2022-01-05 07:19:24,943 :: Database Connection is Established
 DEBUG :: asyncio :: 2022-01-05 07:19:24,958 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,974 :: Started server process [9620]
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,974 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,974 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,974 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: uvicorn.error :: 2022-01-05 07:21:43,470 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:21:43,579 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:21:43,579 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:21:43,579 :: Finished server process [9620]
+INFO :: root :: 2022-01-05 07:21:44,063 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:21:44,079 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:21:44,094 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:21:44,110 :: Started server process [13396]
+INFO :: uvicorn.error :: 2022-01-05 07:21:44,110 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:21:44,110 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:21:44,110 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 07:22:07,296 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 07:22:07,296 :: Employee Details are : [{'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}]
+ERROR :: root :: 2022-01-05 07:22:15,748 :: Error: 2055: Cursor is not connected
+ERROR :: root :: 2022-01-05 07:26:41,029 :: Error: 2055: Cursor is not connected
+INFO :: uvicorn.error :: 2022-01-05 07:26:52,473 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:26:52,583 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:26:52,583 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:26:52,583 :: Finished server process [13396]
+INFO :: root :: 2022-01-05 07:26:53,114 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:26:53,130 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:26:53,145 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:26:53,161 :: Started server process [520]
+INFO :: uvicorn.error :: 2022-01-05 07:26:53,161 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:26:53,161 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:26:53,161 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 07:27:00,778 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 07:27:00,778 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]
+INFO :: root :: 2022-01-05 08:08:37,316 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 08:08:37,317 :: Employee Details are : id=21 name='Sring' profile='Tring' gender='female' department='HR' salary=25000.0 start_date=datetime.date(2022, 1, 5) notes='stringljsdnc'
+ERROR :: root :: 2022-01-05 08:09:05,303 :: Error: Invalid header string: 'utf-8' codec can't decode byte 0xa2 in position 17: invalid start byte
+INFO :: root :: 2022-01-05 21:42:01,193 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 21:42:01,256 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 21:42:01,271 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 21:42:01,287 :: Started server process [736]
+INFO :: uvicorn.error :: 2022-01-05 21:42:01,287 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 21:42:01,287 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 21:42:01,287 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 21:42:03,677 :: It's a Home Page
+INFO :: root :: 2022-01-05 21:42:21,964 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 21:42:21,964 :: Employee Details are : [{'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+INFO :: uvicorn.error :: 2022-01-05 21:59:54,374 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 21:59:54,494 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 21:59:54,494 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 21:59:54,494 :: Finished server process [736]
+INFO :: root :: 2022-01-05 21:59:55,094 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 21:59:55,114 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 21:59:55,134 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 21:59:55,154 :: Started server process [308]
+INFO :: uvicorn.error :: 2022-01-05 21:59:55,154 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 21:59:55,154 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 21:59:55,154 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 22:00:10,169 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-05 22:00:10,169 :: Employee Details are : [{'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}]
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,114 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,225 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,225 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,225 :: Finished server process [308]
+INFO :: root :: 2022-01-05 22:13:07,839 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:13:07,859 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:13:07,874 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,894 :: Started server process [3012]
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,894 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,894 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 22:13:07,894 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 22:13:25,787 :: Error: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-05 22:15:21,514 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 22:15:21,624 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:15:21,624 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 22:15:21,624 :: Finished server process [3012]
+INFO :: root :: 2022-01-05 22:15:22,104 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:15:22,114 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:15:22,134 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:15:22,154 :: Started server process [8504]
+INFO :: uvicorn.error :: 2022-01-05 22:15:22,154 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:15:22,154 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 22:15:22,154 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 22:15:25,165 :: It's a Home Page
+ERROR :: root :: 2022-01-05 22:15:42,663 :: Error: Employee with this Id doesn't exist!
+INFO :: root :: 2022-01-05 22:21:16,906 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 22:21:16,906 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 21, 'Name': 'Sring', 'ProfileImage': 'Tring', 'Gender': 'female', 'Department': 'HR', 'Salary': Decimal('25000.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'stringljsdnc'}]
+INFO :: root :: 2022-01-05 22:37:16,574 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 22:37:16,575 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 21, 'Name': 'Sring', 'ProfileImage': 'Tring', 'Gender': 'female', 'Department': 'HR', 'Salary': Decimal('25000.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'stringljsdnc'}]
+INFO :: root :: 2022-01-05 22:37:23,429 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 22:37:23,429 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 21, 'Name': 'Sring', 'ProfileImage': 'Tring', 'Gender': 'female', 'Department': 'HR', 'Salary': Decimal('25000.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'stringljsdnc'}]
+ERROR :: root :: 2022-01-05 22:38:37,639 :: Error: Employee with this Id doesn't exist!
+INFO :: root :: 2022-01-05 22:40:53,770 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 22:40:53,770 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 21, 'Name': 'Sring', 'ProfileImage': 'Tring', 'Gender': 'female', 'Department': 'HR', 'Salary': Decimal('25000.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'stringljsdnc'}]
+INFO :: root :: 2022-01-05 22:41:02,251 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:41:02,267 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:41:02,285 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:41:02,343 :: Started server process [6932]
+INFO :: uvicorn.error :: 2022-01-05 22:41:02,343 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:41:02,343 :: Application startup complete.
+ERROR :: uvicorn.error :: 2022-01-05 22:41:02,343 :: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO :: uvicorn.error :: 2022-01-05 22:41:02,343 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:41:02,344 :: Application shutdown complete.
+INFO :: root :: 2022-01-05 22:41:07,194 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:41:07,204 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:41:07,224 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:41:07,244 :: Started server process [7628]
+INFO :: uvicorn.error :: 2022-01-05 22:41:07,244 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:41:07,244 :: Application startup complete.
+ERROR :: uvicorn.error :: 2022-01-05 22:41:07,244 :: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO :: uvicorn.error :: 2022-01-05 22:41:07,244 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:41:07,244 :: Application shutdown complete.
+INFO :: root :: 2022-01-05 22:41:19,754 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:41:19,774 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:41:19,784 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:41:19,804 :: Started server process [10812]
+INFO :: uvicorn.error :: 2022-01-05 22:41:19,804 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:41:19,804 :: Application startup complete.
+ERROR :: uvicorn.error :: 2022-01-05 22:41:19,814 :: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO :: uvicorn.error :: 2022-01-05 22:41:19,814 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:41:19,814 :: Application shutdown complete.
+INFO :: root :: 2022-01-05 22:41:32,904 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:41:32,924 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:41:32,940 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:41:32,956 :: Started server process [11772]
+INFO :: uvicorn.error :: 2022-01-05 22:41:32,956 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:41:32,956 :: Application startup complete.
+ERROR :: uvicorn.error :: 2022-01-05 22:41:32,956 :: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO :: uvicorn.error :: 2022-01-05 22:41:32,956 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:41:32,956 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 22:41:40,385 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 22:41:40,504 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 22:41:40,504 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 22:41:40,504 :: Finished server process [8504]
+INFO :: root :: 2022-01-05 22:41:45,254 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 22:41:45,264 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 22:41:45,285 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 22:41:45,304 :: Started server process [12600]
+INFO :: uvicorn.error :: 2022-01-05 22:41:45,304 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 22:41:45,304 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 22:41:45,304 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 22:41:47,315 :: It's a Home Page
+INFO :: root :: 2022-01-05 22:42:07,101 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 22:42:07,101 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]

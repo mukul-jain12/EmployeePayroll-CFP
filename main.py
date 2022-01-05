@@ -11,6 +11,7 @@ from fastapi import FastAPI, Header
 from db_queries import *
 from models import EmployeePayroll
 from generate_token import *
+
 app = FastAPI()
 
 logging.basicConfig(filename='employee_payroll.log', filemode='a', level=logging.DEBUG,
@@ -20,7 +21,7 @@ logging.basicConfig(filename='employee_payroll.log', filemode='a', level=logging
 @app.get("/")
 def hello_world():
     logging.info("It's a Home Page")
-    return {'message': 'Welcome To FastAPI CRUD Operations'}
+    return {"message": "Welcome To FastAPI CRUD Operations"}
 
 
 @app.get("/employee/{id}")
@@ -37,7 +38,7 @@ def retrieve_employee_detail(id: int):
         return {"status": 200, "message": "Successfully Get The Employee Details", "data": employee_details}
     except Exception as e:
         logging.error(f"Error: {e}")
-        return {"status": 500, "message": f"Error : {e}"}
+        return {"status": 404, "message": f"Error : {e}"}
 
 
 @app.get("/employees/")
@@ -53,7 +54,7 @@ def retrieve_all_employee_details():
         return {"status": 200, "message": "Successfully Get All Employee Details", "data": employee_details}
     except Exception as e:
         logging.error(f"Error: {e}")
-        return {"status": 500, "message": f"Error : {e}"}
+        return {"status": 404, "message": f"Error : {e}"}
 
 
 @app.post("/employee/")
@@ -89,7 +90,7 @@ def delete_employee_details(id: int):
         return {"status": 200, "message": "Successfully Deleted The Employee Details", "data": emp_id}
     except Exception as e:
         logging.error(f"Error: {e}")
-        return {"status": 500, "message": f"Error : {e}"}
+        return {"status": 404, "message": f"Error : {e}"}
 
 
 @app.put("/employee/{id}")
