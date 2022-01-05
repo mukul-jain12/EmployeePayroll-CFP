@@ -10,3 +10,798 @@ INFO :: uvicorn.error :: 2022-01-02 20:14:10,060 :: Shutting down
 INFO :: uvicorn.error :: 2022-01-02 20:14:10,185 :: Waiting for application shutdown.
 INFO :: uvicorn.error :: 2022-01-02 20:14:10,186 :: Application shutdown complete.
 INFO :: uvicorn.error :: 2022-01-02 20:14:10,187 :: Finished server process [15304]
+INFO :: root :: 2022-01-03 08:11:45,442 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:11:45,755 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:11:45,762 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:11:45,808 :: Started server process [7984]
+INFO :: uvicorn.error :: 2022-01-03 08:11:45,809 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:11:45,809 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:11:45,809 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-03 08:12:17,094 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:12:17,094 :: Employee Details are : [{'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}]
+INFO :: root :: 2022-01-03 08:12:29,828 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 08:12:29,829 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Dibyesh Mishra', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Sales', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 20), 'Notes': 'Sincere and Intelligent'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 9, 'Name': 'Totla Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('2000000.30'), 'StartDate': datetime.date(2010, 1, 2), 'Notes': 'Tup tup tup... Tup taap rehne ka'}]
+INFO :: root :: 2022-01-03 08:13:14,360 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-03 08:13:14,360 :: Employee ID is : 9
+INFO :: root :: 2022-01-03 08:13:49,158 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 08:13:49,159 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Dibyesh Mishra', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Sales', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 20), 'Notes': 'Sincere and Intelligent'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+INFO :: root :: 2022-01-03 08:14:07,438 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:14:07,439 :: Employee Details are : []
+INFO :: root :: 2022-01-03 08:16:09,111 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 08:16:09,111 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Dibyesh Mishra', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Sales', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 20), 'Notes': 'Sincere and Intelligent'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+INFO :: root :: 2022-01-03 08:17:36,977 :: Successfully Updated The Employee Details
+DEBUG :: root :: 2022-01-03 08:17:37,075 :: Employee Details are : id=2 name='Kachra Seth' profile='image3' gender='Female' department='HR' salary=15000.0 start_date=datetime.date(2018, 12, 24) notes='Kabadi wala'
+INFO :: root :: 2022-01-03 08:17:58,978 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 08:17:58,978 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+INFO :: uvicorn.error :: 2022-01-03 08:34:01,496 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:34:01,598 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:34:01,598 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:34:01,598 :: Finished server process [7984]
+INFO :: root :: 2022-01-03 08:34:02,280 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:34:02,336 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:34:02,346 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:34:02,366 :: Started server process [2680]
+INFO :: uvicorn.error :: 2022-01-03 08:34:02,366 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:34:02,366 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:34:02,366 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 08:34:11,720 :: Error: Not there
+ERROR :: root :: 2022-01-03 08:34:55,666 :: Error: Not there
+INFO :: uvicorn.error :: 2022-01-03 08:35:41,465 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:35:41,573 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:35:41,573 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:35:41,573 :: Finished server process [2680]
+INFO :: root :: 2022-01-03 08:35:42,075 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:35:42,094 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:35:42,101 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:35:42,119 :: Started server process [7520]
+INFO :: uvicorn.error :: 2022-01-03 08:35:42,120 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:35:42,120 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:35:42,120 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 08:35:48,145 :: Error: 'CMySQLCursorBufferedDict' object is not subscriptable
+ERROR :: root :: 2022-01-03 08:36:38,862 :: Error: 'CMySQLCursorBufferedDict' object is not subscriptable
+ERROR :: root :: 2022-01-03 08:37:06,470 :: Error: 'CMySQLCursorBufferedDict' object is not subscriptable
+INFO :: uvicorn.error :: 2022-01-03 08:37:10,588 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:37:10,702 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:37:10,702 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:37:10,702 :: Finished server process [7520]
+INFO :: root :: 2022-01-03 08:37:11,253 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:37:11,295 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:37:11,301 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:37:11,320 :: Started server process [4628]
+INFO :: uvicorn.error :: 2022-01-03 08:37:11,320 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:37:11,320 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:37:11,320 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 08:37:15,400 :: Error: Employee With this id is not in database
+ERROR :: root :: 2022-01-03 08:37:48,059 :: Error: Employee With this id is not in database
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,265 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,374 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,375 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,375 :: Finished server process [4628]
+INFO :: root :: 2022-01-03 08:37:54,907 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:37:54,945 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:37:54,951 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,970 :: Started server process [10472]
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,971 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,971 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:37:54,971 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 08:37:58,991 :: Error: 3
+INFO :: root :: 2022-01-03 08:40:47,172 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 08:40:47,173 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+ERROR :: root :: 2022-01-03 08:40:57,152 :: Error: 1
+ERROR :: root :: 2022-01-03 08:46:37,797 :: Error: 1
+INFO :: uvicorn.error :: 2022-01-03 08:46:43,457 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:46:43,577 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:46:43,577 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:46:43,577 :: Finished server process [10472]
+INFO :: root :: 2022-01-03 08:46:44,187 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:46:44,247 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:46:44,247 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:46:44,267 :: Started server process [11036]
+INFO :: uvicorn.error :: 2022-01-03 08:46:44,267 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:46:44,267 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:46:44,267 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-03 08:46:49,817 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:46:49,817 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}]
+ERROR :: root :: 2022-01-03 08:46:58,220 :: Error: list index out of range
+INFO :: root :: 2022-01-03 08:47:07,887 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:47:07,887 :: Employee Details are : [{'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image2', 'Gender': 'Male', 'Department': 'Engineer', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2020, 12, 24), 'Notes': 'Dupe'}]
+INFO :: uvicorn.error :: 2022-01-03 08:52:16,999 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,111 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,111 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,111 :: Finished server process [11036]
+INFO :: root :: 2022-01-03 08:52:17,687 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:52:17,737 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:52:17,747 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,767 :: Started server process [2460]
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,767 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,767 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:52:17,767 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 08:54:07,988 :: Error: 'NoneType' object is not subscriptable
+INFO :: uvicorn.error :: 2022-01-03 08:54:47,598 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 08:54:47,718 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 08:54:47,718 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 08:54:47,718 :: Finished server process [2460]
+INFO :: root :: 2022-01-03 08:54:48,257 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 08:54:48,272 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 08:54:48,278 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 08:54:48,298 :: Started server process [12348]
+INFO :: uvicorn.error :: 2022-01-03 08:54:48,298 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 08:54:48,298 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 08:54:48,298 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-03 08:55:10,503 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:55:10,503 :: Employee Details are : [{'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('25000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}]
+ERROR :: root :: 2022-01-03 08:55:44,699 :: Error: 'NoneType' object is not subscriptable
+INFO :: root :: 2022-01-03 08:55:50,148 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 08:55:50,148 :: Employee Details are : [{'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}]
+INFO :: root :: 2022-01-03 09:09:42,941 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-03 09:09:42,941 :: Employee ID is : 9
+INFO :: root :: 2022-01-03 09:09:54,930 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-03 09:09:54,930 :: Employee ID is : 9
+INFO :: root :: 2022-01-03 09:10:07,154 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 09:10:07,154 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}, {'Id': 8, 'Name': 'Kachra Seth', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('150.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}]
+INFO :: uvicorn.error :: 2022-01-03 09:12:30,839 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 09:12:30,939 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 09:12:30,939 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 09:12:30,939 :: Finished server process [12348]
+INFO :: root :: 2022-01-03 09:12:31,459 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 09:12:31,509 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 09:12:31,509 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 09:12:31,529 :: Started server process [4768]
+INFO :: uvicorn.error :: 2022-01-03 09:12:31,529 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 09:12:31,529 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 09:12:31,539 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-03 09:12:38,156 :: Error: 'NoneType' object is not subscriptable
+ERROR :: root :: 2022-01-03 09:12:46,013 :: Error: 'NoneType' object is not subscriptable
+INFO :: root :: 2022-01-03 09:12:52,002 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-03 09:12:52,002 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}]
+ERROR :: root :: 2022-01-03 10:12:14,178 :: Error: list index out of range
+INFO :: root :: 2022-01-03 10:12:20,932 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-03 10:12:20,932 :: Employee Details are : [{'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}]
+ERROR :: root :: 2022-01-03 10:12:32,591 :: Error: list index out of range
+INFO :: uvicorn.error :: 2022-01-03 18:51:34,627 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 18:51:34,736 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 18:51:34,736 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 18:51:34,736 :: Finished server process [4768]
+INFO :: root :: 2022-01-03 18:51:37,591 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:51:37,638 :: Database Connection is Established
+INFO :: root :: 2022-01-03 18:52:25,084 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:52:25,115 :: Database Connection is Established
+INFO :: root :: 2022-01-03 18:53:54,927 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:53:54,958 :: Database Connection is Established
+INFO :: root :: 2022-01-03 18:54:16,095 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:54:16,173 :: Database Connection is Established
+INFO :: root :: 2022-01-03 18:54:39,823 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:54:39,839 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 18:54:39,854 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 18:54:39,870 :: Started server process [7712]
+INFO :: uvicorn.error :: 2022-01-03 18:54:39,870 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 18:54:39,870 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 18:54:39,870 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: uvicorn.error :: 2022-01-03 18:56:07,780 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 18:56:07,905 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 18:56:07,905 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 18:56:07,905 :: Finished server process [7712]
+INFO :: root :: 2022-01-03 18:56:08,531 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:56:08,562 :: Database Connection is Established
+INFO :: root :: 2022-01-03 18:56:34,739 :: Trying to establish the database connection
+INFO :: root :: 2022-01-03 18:56:34,755 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-03 18:56:34,755 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-03 18:56:34,770 :: Started server process [2008]
+INFO :: uvicorn.error :: 2022-01-03 18:56:34,770 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-03 18:56:34,770 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-03 18:56:34,770 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: uvicorn.error :: 2022-01-03 22:17:28,896 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-03 22:17:29,005 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-03 22:17:29,020 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-03 22:17:29,020 :: Finished server process [2008]
+INFO :: root :: 2022-01-04 07:34:54,175 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 07:34:54,207 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 07:34:54,207 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 07:34:54,238 :: Started server process [6152]
+INFO :: uvicorn.error :: 2022-01-04 07:34:54,238 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 07:34:54,238 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 07:34:54,238 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 07:34:58,419 :: It's a Home Page
+ERROR :: root :: 2022-01-04 07:35:18,807 :: Error: list index out of range
+ERROR :: uvicorn.error :: 2022-01-04 07:35:18,808 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 34, in retrieve_employee_detail
+    employee_details = retrieve_one_employee(id)
+  File "F:\CFP\EmployeePayrollMgmt\db_queries.py", line 22, in retrieve_one_employee
+    if id == employee[0]["Id"]:
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 40, in retrieve_employee_detail
+    return {"status": 500, "message": f"Error : {employee_details}"}
+UnboundLocalError: local variable 'employee_details' referenced before assignment
+INFO :: uvicorn.error :: 2022-01-04 07:38:45,299 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 07:38:45,408 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 07:38:45,408 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 07:38:45,408 :: Finished server process [6152]
+INFO :: root :: 2022-01-04 07:38:46,018 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 07:38:46,033 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 07:38:46,049 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 07:38:46,064 :: Started server process [11188]
+INFO :: uvicorn.error :: 2022-01-04 07:38:46,064 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 07:38:46,064 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 07:38:46,064 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 07:38:55,742 :: Error: list index out of range
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,005 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,114 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,114 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,114 :: Finished server process [11188]
+INFO :: root :: 2022-01-04 07:40:47,629 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 07:40:47,645 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 07:40:47,645 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,661 :: Started server process [10956]
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,661 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,661 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 07:40:47,676 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 07:40:57,636 :: Error: list index out of range
+INFO :: uvicorn.error :: 2022-01-04 07:44:57,919 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,028 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,028 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,028 :: Finished server process [10956]
+INFO :: root :: 2022-01-04 07:44:58,591 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 07:44:58,606 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 07:44:58,606 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,638 :: Started server process [11556]
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,638 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,638 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 07:44:58,638 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 07:45:11,332 :: Error: No data
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,018 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,127 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,127 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,127 :: Finished server process [11556]
+INFO :: root :: 2022-01-04 07:46:46,627 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 07:46:46,643 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 07:46:46,643 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,658 :: Started server process [13948]
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,658 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,658 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 07:46:46,658 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 07:46:54,893 :: Error: No data
+INFO :: uvicorn.error :: 2022-01-04 08:13:45,392 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 08:13:45,499 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 08:13:45,499 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 08:13:45,499 :: Finished server process [13948]
+INFO :: root :: 2022-01-04 21:19:02,369 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:19:04,301 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:19:04,338 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:19:04,719 :: Started server process [464]
+INFO :: uvicorn.error :: 2022-01-04 21:19:04,719 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:19:04,720 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:19:04,720 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: uvicorn.error :: 2022-01-04 21:19:07,757 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 21:19:07,863 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 21:19:07,864 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 21:19:07,864 :: Finished server process [464]
+INFO :: root :: 2022-01-04 21:19:09,522 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:19:09,601 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:19:09,626 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:19:09,686 :: Started server process [13556]
+INFO :: uvicorn.error :: 2022-01-04 21:19:09,686 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:19:09,687 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:19:09,688 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 21:19:12,206 :: It's a Home Page
+ERROR :: root :: 2022-01-04 21:20:39,368 :: Error: Employee with this Id doesn't exist!
+INFO :: root :: 2022-01-04 21:22:03,902 :: Successfully Get Employee Details
+DEBUG :: root :: 2022-01-04 21:22:03,903 :: Employee Details are : [{'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}]
+INFO :: uvicorn.error :: 2022-01-04 21:22:14,784 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 21:22:14,904 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 21:22:14,905 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 21:22:14,905 :: Finished server process [13556]
+INFO :: root :: 2022-01-04 21:22:16,604 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:22:16,656 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:22:16,671 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:22:16,736 :: Started server process [12056]
+INFO :: uvicorn.error :: 2022-01-04 21:22:16,737 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:22:16,737 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:22:16,738 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 21:22:42,477 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-04 21:22:42,478 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 7, 'Name': 'Anuradha', 'ProfileImage': 'image2', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('400000.00'), 'StartDate': datetime.date(2019, 1, 2), 'Notes': 'Laxmi Cheat Fund'}]
+INFO :: uvicorn.error :: 2022-01-04 21:25:45,394 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 21:25:45,504 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 21:25:45,505 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 21:25:45,505 :: Finished server process [12056]
+INFO :: root :: 2022-01-04 21:25:47,023 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:25:47,050 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:25:47,076 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:25:47,155 :: Started server process [3712]
+INFO :: uvicorn.error :: 2022-01-04 21:25:47,155 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:25:47,155 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:25:47,156 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: uvicorn.error :: 2022-01-04 21:26:41,504 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 21:26:41,620 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 21:26:41,621 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 21:26:41,621 :: Finished server process [3712]
+INFO :: root :: 2022-01-04 21:26:42,976 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:26:43,013 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:26:43,021 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:26:43,059 :: Started server process [12116]
+INFO :: uvicorn.error :: 2022-01-04 21:26:43,059 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:26:43,060 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:26:43,060 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 21:27:16,759 :: Error: DB doesn't contain any employee data!
+ERROR :: root :: 2022-01-04 21:28:17,358 :: Error: DB doesn't contain any employee data!
+ERROR :: root :: 2022-01-04 21:28:35,807 :: Error: DB doesn't contain any employee data!
+INFO :: uvicorn.error :: 2022-01-04 21:29:15,080 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 21:29:15,194 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 21:29:15,195 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 21:29:15,195 :: Finished server process [12116]
+INFO :: root :: 2022-01-04 21:29:16,356 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 21:29:16,387 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 21:29:16,396 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 21:29:16,432 :: Started server process [2216]
+INFO :: uvicorn.error :: 2022-01-04 21:29:16,433 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 21:29:16,434 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 21:29:16,435 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 21:29:40,296 :: Error: DB doesn't contain any employee data!
+INFO :: uvicorn.error :: 2022-01-04 22:15:18,189 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 22:15:18,297 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 22:15:18,298 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 22:15:18,298 :: Finished server process [2216]
+INFO :: root :: 2022-01-04 22:31:49,735 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 22:31:49,762 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 22:31:49,762 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 22:31:49,790 :: Started server process [7248]
+INFO :: uvicorn.error :: 2022-01-04 22:31:49,790 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 22:31:49,790 :: Application startup complete.
+ERROR :: uvicorn.error :: 2022-01-04 22:31:49,790 :: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO :: uvicorn.error :: 2022-01-04 22:31:49,790 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 22:31:49,790 :: Application shutdown complete.
+INFO :: root :: 2022-01-04 22:32:00,780 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 22:32:00,794 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 22:32:00,800 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 22:32:00,820 :: Started server process [12232]
+INFO :: uvicorn.error :: 2022-01-04 22:32:00,820 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 22:32:00,820 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 22:32:00,820 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 22:32:02,850 :: It's a Home Page
+INFO :: root :: 2022-01-04 22:32:24,799 :: Successfully Updated The Employee Details
+DEBUG :: root :: 2022-01-04 22:32:24,799 :: Employee Details are : [{'Id': 7, 'Name': 'string', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 4), 'Notes': 'string'}]
+INFO :: root :: 2022-01-04 22:32:57,710 :: Successfully Updated The Employee Details
+DEBUG :: root :: 2022-01-04 22:32:57,710 :: Employee Details are : [{'Id': 7, 'Name': 'Tata', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 4), 'Notes': 'string'}]
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,000 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,120 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,120 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,120 :: Finished server process [12232]
+INFO :: root :: 2022-01-04 22:34:13,650 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 22:34:13,670 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 22:34:13,680 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,701 :: Started server process [11108]
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,701 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,701 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 22:34:13,701 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-04 22:34:32,648 :: Error: Employee with this Id doesn't exist!
+ERROR :: root :: 2022-01-04 22:38:16,100 :: Error: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,122 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,242 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,242 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,242 :: Finished server process [11108]
+INFO :: root :: 2022-01-04 22:45:09,841 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 22:45:09,867 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 22:45:09,871 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,891 :: Started server process [5236]
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,891 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,891 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 22:45:09,891 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 22:45:25,585 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-04 22:45:25,586 :: Employee Details are : id=0 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 4) notes='string'
+INFO :: root :: 2022-01-04 22:46:08,736 :: Successfully Updated The Employee Details
+DEBUG :: root :: 2022-01-04 22:46:08,736 :: Employee Details are : [{'Id': 10, 'Name': 'string', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 4), 'Notes': 'string'}]
+ERROR :: root :: 2022-01-04 22:46:22,200 :: Error: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,283 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,402 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,402 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,402 :: Finished server process [5236]
+INFO :: root :: 2022-01-04 22:50:49,945 :: Trying to establish the database connection
+INFO :: root :: 2022-01-04 22:50:49,962 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-04 22:50:49,972 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,982 :: Started server process [5040]
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,982 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,982 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-04 22:50:49,992 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-04 22:51:08,715 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-04 22:51:08,715 :: Employee Details are : id=15 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 4) notes='string'
+INFO :: root :: 2022-01-04 22:51:23,005 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-04 22:51:23,005 :: Employee ID is : 15
+INFO :: root :: 2022-01-04 22:51:36,277 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-04 22:51:36,277 :: Employee ID is : 18
+INFO :: root :: 2022-01-05 06:27:32,871 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:27:32,949 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:27:32,981 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:27:33,074 :: Started server process [9188]
+INFO :: uvicorn.error :: 2022-01-05 06:27:33,074 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:27:33,074 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:27:33,074 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 06:27:36,621 :: It's a Home Page
+INFO :: root :: 2022-01-05 06:27:55,781 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 06:27:55,889 :: Employee Details are : id=19 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 5) notes='string'
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,125 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,234 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,234 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,234 :: Finished server process [9188]
+INFO :: root :: 2022-01-05 06:30:54,812 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:30:54,890 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:30:54,906 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,969 :: Started server process [13752]
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,969 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,969 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:30:54,969 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: uvicorn.error :: 2022-01-05 06:31:05,834 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 115, in login
+    data = decode_token(token, id)
+  File "F:\CFP\EmployeePayrollMgmt\generate_token.py", line 18, in decode_token
+    if data.get('user_id') == emp_data.get('Id'):
+AttributeError: 'list' object has no attribute 'get'
+ERROR :: uvicorn.error :: 2022-01-05 06:31:35,325 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 115, in login
+    data = decode_token(token, id)
+  File "F:\CFP\EmployeePayrollMgmt\generate_token.py", line 18, in decode_token
+    if data.get('user_id') == emp_data[0]["Id"]:
+AttributeError: 'list' object has no attribute 'get'
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,104 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,213 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,213 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,213 :: Finished server process [13752]
+INFO :: root :: 2022-01-05 06:31:48,729 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:31:48,760 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:31:48,760 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,791 :: Started server process [2516]
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,791 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,791 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:31:48,791 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 06:32:09,299 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 06:32:09,299 :: Employee Details are : id=67 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 5) notes='string'
+ERROR :: uvicorn.error :: 2022-01-05 06:33:43,762 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 115, in login
+    data = decode_token(token, id)
+  File "F:\CFP\EmployeePayrollMgmt\generate_token.py", line 17, in decode_token
+    emp_data = retrieve_one_employee(id)
+  File "F:\CFP\EmployeePayrollMgmt\db_queries.py", line 25, in retrieve_one_employee
+    raise Exception("Employee with this Id doesn't exist!")
+Exception: Employee with this Id doesn't exist!
+ERROR :: uvicorn.error :: 2022-01-05 06:41:31,065 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 115, in login
+    token_id = decode_token(token)
+  File "F:\CFP\EmployeePayrollMgmt\generate_token.py", line 17, in decode_token
+    return data.get('user_id')
+  File "F:\CFP\EmployeePayrollMgmt\db_queries.py", line 25, in retrieve_one_employee
+    raise Exception("Employee with this Id doesn't exist!")
+Exception: Employee with this Id doesn't exist!
+ERROR :: uvicorn.error :: 2022-01-05 06:42:18,942 :: Exception in ASGI application
+Traceback (most recent call last):
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 373, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 226, in app
+    raw_response = await run_endpoint_function(
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\fastapi\routing.py", line 161, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "F:\CFP\EmployeePayrollMgmt\myenv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "F:\CFP\EmployeePayrollMgmt\main.py", line 115, in login
+    token_id = decode_token(token)
+  File "F:\CFP\EmployeePayrollMgmt\generate_token.py", line 17, in decode_token
+    return data.get('user_id')
+  File "F:\CFP\EmployeePayrollMgmt\db_queries.py", line 25, in retrieve_one_employee
+    raise Exception("Employee with this Id doesn't exist!")
+Exception: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-05 06:42:29,701 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 06:42:29,810 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 06:42:29,810 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 06:42:29,810 :: Finished server process [2516]
+INFO :: root :: 2022-01-05 06:42:30,341 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:42:30,357 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:42:30,373 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:42:30,388 :: Started server process [13504]
+INFO :: uvicorn.error :: 2022-01-05 06:42:30,388 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:42:30,388 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:42:30,388 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 06:43:03,551 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 06:43:03,552 :: Employee Details are : id=13 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 5) notes='string'
+ERROR :: root :: 2022-01-05 06:43:31,436 :: Error: Invalid header string: Unterminated string starting at: line 1 column 20 (char 19)
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,229 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,339 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,339 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,339 :: Finished server process [13504]
+INFO :: root :: 2022-01-05 06:44:05,823 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:44:05,839 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:44:05,854 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,870 :: Started server process [2864]
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,870 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,870 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:44:05,870 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 06:44:13,466 :: Error: Invalid header string: 'utf-8' codec can't decode byte 0xc6 in position 14: invalid continuation byte
+ERROR :: root :: 2022-01-05 06:44:27,383 :: Error: Not enough segments
+ERROR :: root :: 2022-01-05 06:44:44,529 :: Error: Invalid header string: 'utf-8' codec can't decode byte 0x88 in position 18: invalid start byte
+INFO :: root :: 2022-01-05 06:48:12,504 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 06:48:12,504 :: Employee ID is : 13
+ERROR :: root :: 2022-01-05 06:48:19,033 :: Error: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,072 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,181 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,181 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,181 :: Finished server process [2864]
+INFO :: root :: 2022-01-05 06:55:51,666 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 06:55:51,681 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 06:55:51,697 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,728 :: Started server process [4504]
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,728 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,728 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 06:55:51,728 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-05 06:56:06,613 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 06:56:06,613 :: Employee ID is : 13
+INFO :: root :: 2022-01-05 06:56:19,344 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 06:56:19,344 :: Employee ID is : 13
+INFO :: uvicorn.error :: 2022-01-05 07:01:36,524 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:01:36,633 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:01:36,633 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:01:36,633 :: Finished server process [4504]
+INFO :: root :: 2022-01-05 07:01:37,133 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:01:37,180 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:01:37,196 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:01:37,211 :: Started server process [1712]
+INFO :: uvicorn.error :: 2022-01-05 07:01:37,227 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:01:37,227 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:01:37,227 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 07:01:49,077 :: Error: Employee with this Id doesn't exist!
+ERROR :: root :: 2022-01-05 07:02:00,547 :: Error: Employee with this Id doesn't exist!
+INFO :: root :: 2022-01-05 07:02:21,299 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 07:02:21,300 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'string', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 67, 'Name': 'string', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]
+INFO :: root :: 2022-01-05 07:02:33,116 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-05 07:02:33,116 :: Employee ID is : 67
+INFO :: root :: 2022-01-05 07:02:46,903 :: Successfully Get All Employee Details
+DEBUG :: root :: 2022-01-05 07:02:46,903 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'string', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]
+INFO :: uvicorn.error :: 2022-01-05 07:04:23,918 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,027 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,027 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,027 :: Finished server process [1712]
+INFO :: root :: 2022-01-05 07:04:24,527 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:04:24,543 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:04:24,558 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,574 :: Started server process [8076]
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,574 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,574 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:04:24,589 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 07:04:31,035 :: Error: Employee with this Id doesn't exist!
+ERROR :: root :: 2022-01-05 07:04:39,474 :: Error: Employee with this Id doesn't exist!
+INFO :: uvicorn.error :: 2022-01-05 07:05:53,614 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:05:53,723 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:05:53,723 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:05:53,723 :: Finished server process [8076]
+INFO :: root :: 2022-01-05 07:05:54,192 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:05:54,207 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:05:54,223 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:05:54,239 :: Started server process [13592]
+INFO :: uvicorn.error :: 2022-01-05 07:05:54,239 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:05:54,239 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:05:54,239 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 07:06:11,684 :: Error: Employee with this Id doesn't exist!
+INFO :: root :: 2022-01-05 07:06:46,685 :: Successfully Updated The Employee Details
+DEBUG :: root :: 2022-01-05 07:06:46,685 :: Employee Details are : [{'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]
+INFO :: root :: 2022-01-05 07:07:30,802 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-05 07:07:30,802 :: Employee Details are : id=20 name='alsjcn' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 5) notes='string'
+ERROR :: root :: 2022-01-05 07:07:57,036 :: Error: Invalid header string: 'utf-8' codec can't decode byte 0x88 in position 24: invalid start byte
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,098 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,207 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,207 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,207 :: Finished server process [13592]
+INFO :: root :: 2022-01-05 07:16:36,707 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:16:36,723 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:16:36,738 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,754 :: Started server process [2676]
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,754 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,754 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-05 07:16:36,754 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-05 07:16:54,573 :: Error: Not enough segments
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,365 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,474 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,474 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-05 07:19:24,474 :: Finished server process [2676]
+INFO :: root :: 2022-01-05 07:19:24,927 :: Trying to establish the database connection
+INFO :: root :: 2022-01-05 07:19:24,943 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-05 07:19:24,958 :: Using proactor: IocpProactor

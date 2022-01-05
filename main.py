@@ -6,11 +6,11 @@
 import logging
 
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI, Header
 
 from db_queries import *
 from models import EmployeePayroll
-
+from generate_token import *
 app = FastAPI()
 
 logging.basicConfig(filename='employee_payroll.log', filemode='a', level=logging.DEBUG,
@@ -56,31 +56,33 @@ def retrieve_all_employee_details():
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.post("/add_employee/")
+@app.post("/employee/")
 def add_employee_details(emp: EmployeePayroll):
     """
     desc: created api to insert item in the database table
-    param1: EmployeePayroll class
+    param1: EmployeePayroll class which contains schema
     return: employee details in SMD format
     """
     try:
         employee_details = add_employee(emp)
         logging.info("Successfully Added Employee Details")
         logging.debug(f"Employee Details are : {employee_details}")
-        return {"status": 200, "message": "Successfully Added Employee Data", "data": employee_details}
+        token_id = encode_token(emp.id)
+        return token_id
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.delete("/delete_employee/{id}")
+@app.delete("/employee/{id}")
 def delete_employee_details(id: int):
     """
     desc: created api to delete the items from the database table using id
-    param: id
+    param: id: it is an employee id
     return: employee id in SMD format
     """
     try:
+        retrieve_one_employee(id)
         emp_id = delete_employee(id)
         logging.info("Successfully Deleted The Employee Details")
         logging.debug(f"Employee ID is : {emp_id}")
@@ -90,15 +92,16 @@ def delete_employee_details(id: int):
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.put("/update_employee/{id}")
+@app.put("/employee/{id}")
 def update_employee_details(id: int, emp: EmployeePayroll):
     """
     desc: created api to update any item in the database table
-    param1: id
-    param2: EmployeePayroll class
+    param1: id: it is an employee id
+    param2: EmployeePayroll class which contains schema
     return: employee details in SMD format
     """
     try:
+        retrieve_one_employee(id)
         employee_details = update_employee(id, emp)
         logging.info("Successfully Updated The Employee Details")
         logging.debug(f"Employee Details are : {employee_details}")
@@ -106,6 +109,22 @@ def update_employee_details(id: int, emp: EmployeePayroll):
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 500, "message": f"Error : {e}"}
+
+
+@app.post("/login/{id}")
+def login(token: str = Header(None)):
+    """
+        desc: employee login by entering the token number generated at employee creation time
+        param: token: encoded employee id
+        return
+    """
+    try:
+        token_id = decode_token(token)
+        check_emp_in_db = retrieve_one_employee(token_id)
+        return {"status": 200, "message": "Successfully Logged In", "data": check_emp_in_db}
+    except Exception as e:
+        logging.error(f"Error: {e}")
+        return {"status": 500, "message": "You are not authorized employee"}
 
 
 if __name__ == "__main__":
