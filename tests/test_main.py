@@ -41,7 +41,8 @@ class TestCase:
         """
         response = client.get(f"/employee/{emp_id}")
         # assert response.status_code == 404
-        assert response.json() == {"status": 404, "message": "Error : Employee with this Id doesn't exist!"}
+        json_response = response.json()
+        assert json_response["message"] == "Error : Employee with this Id doesn't exist!"
 
     def test_not_retrieving_all_employee_detail(self):
         """
@@ -49,39 +50,25 @@ class TestCase:
         """
         response = client.get(f"/employees/")
         # assert response.status_code == 404
-        assert response.json() == {"status": 404, "message": f"Error : DB doesn't contain any employee data!"}
+        json_response = response.json()
+        assert json_response["message"] == "Error : DB doesn't contain any employee data!"
 
     def test_retrieve_all_employee_detail(self):
         """
         desc: test case for retrieving all employees from database
         """
-        response = client.get(f"/employees/")
+        response = client.get("/employees/")
         assert response.status_code == 200
-        assert response.json() == {"status": 200, "message": "Successfully Get All Employee Details", "data": [
-            {"Id": 1, "Name": "Mukul Jain", "ProfileImage": "image1", "Gender": "Male", "Department": "HR",
-             "Salary": 85000, "StartDate": "2022-01-02", "Notes": "Sincere and Intelligent"},
-            {"Id": 2, "Name": "Kachra Seth", "ProfileImage": "image3", "Gender": "Female", "Department": "HR",
-             "Salary": 15000, "StartDate": "2018-12-24", "Notes": "Kabadi wala"},
-            {"Id": 3, "Name": "Shivam Mishra", "ProfileImage": "image3", "Gender": "Male", "Department": "Finance",
-             "Salary": 90000, "StartDate": "2021-12-22", "Notes": "Sincere and Intelligent"},
-            {"Id": 4, "Name": "Raju", "ProfileImage": "image4", "Gender": "Male", "Department": "Other",
-             "Salary": 1000, "StartDate": "2021-12-24", "Notes": "Topibaaz"},
-            {"Id": 5, "Name": "Shyaam", "ProfileImage": "image3", "Gender": "Male", "Department": "HR",
-             "Salary": 35000, "StartDate": "2018-12-24", "Notes": "Dupe"},
-            {"Id": 6, "Name": "Baburao Ganpatrao Apte", "ProfileImage": "image3", "Gender": "Male",
-             "Department": "Finance", "Salary": 30000, "StartDate": "2016-12-24", "Notes": "Jai Maharashtra"},
-            {"Id": 19, "Name": "Mukul", "ProfileImage": "Tring", "Gender": "Male", "Department": "HR",
-             "Salary": 50000000.2, "StartDate": "2022-01-05", "Notes": "string"},
-            {"Id": 20, "Name": "alsjcn", "ProfileImage": "string", "Gender": "string", "Department": "string",
-             "Salary": 0, "StartDate": "2022-01-05", "Notes": "string"}
-        ]}
+        json_response = response.json()
+        assert json_response["message"] == "Successfully Get All Employee Details"
 
     def test_delete_employee_not_exist_in_db(self):
         """
-        desc: test case for deleting employee, but id doesn't exist so it will raise exception
+        desc: test case for deleting employee, but id doesn't exist, so it will raise exception
         """
         response = client.delete("/employee/22")
-        assert response.json() == {"status": 404, "message": "Error : Employee with this Id doesn't exist!"}
+        json_response = response.json()
+        assert json_response["message"] == "Error : Employee with this Id doesn't exist!"
 
     def test_delete_employee(self):
         """
@@ -97,9 +84,8 @@ class TestCase:
         response = client.post("/employee/", json={"id": 21, "name": "string", "profile": "string", "gender": "string",
                                                    "department": "string", "salary": 0, "start_date": "2022-01-06",
                                                    "notes": "string"})
-        assert response.json() == {"status": 200, "message": "Successfully Get All Employee Details",
-                                   "data": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol"
-                                           "-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"}
+        json_response = response.json()
+        assert json_response["data"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"
 
     def test_cannot_add_employee(self):
         """
@@ -108,4 +94,21 @@ class TestCase:
         response = client.post("/employee/", json={"id": 21, "name": "string", "profile": "string", "gender": "string",
                                                    "department": "string", "salary": 0, "start_date": "2022-01-06",
                                                    "notes": "string"})
-        assert response.json() == {"status": 402, "message": "Error : Employee with this Id Already exist in database"}
+        json_response = response.json()
+        assert json_response["message"] == "Error : Employee with this Id Already exist in database"
+
+    def test_login_api(self):
+        """
+        desc: test case for login
+        """
+        response = client.post("/login/", headers={"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
+        json_response = response.json()
+        assert json_response["message"] == "Successfully Logged In"
+
+    def test_cannot_login(self):
+        """
+        desc: test case for add employee, but raise exception if employee detail is already in db
+        """
+        response = client.post("/login/", headers={"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
+        json_response = response.json()
+        assert json_response["message"] == "You are not authorized employee"

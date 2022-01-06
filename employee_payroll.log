@@ -977,3 +977,22 @@ INFO :: uvicorn.error :: 2022-01-06 07:32:49,972 :: Waiting for application star
 INFO :: uvicorn.error :: 2022-01-06 07:32:49,973 :: Application startup complete.
 INFO :: uvicorn.error :: 2022-01-06 07:32:49,974 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ERROR :: root :: 2022-01-06 07:33:07,400 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'
+INFO :: root :: 2022-01-06 08:01:02,130 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-06 08:01:02,130 :: Employee ID is : 21
+ERROR :: root :: 2022-01-06 08:01:05,726 :: Error: Employee with this Id doesn't exist!
+ERROR :: root :: 2022-01-06 08:03:07,739 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'
+INFO :: uvicorn.error :: 2022-01-06 08:17:15,646 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-06 08:17:15,754 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-06 08:17:15,754 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-06 08:17:15,755 :: Finished server process [10588]
+INFO :: root :: 2022-01-06 08:17:17,035 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 08:17:17,066 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-06 08:17:17,100 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-06 08:17:17,142 :: Started server process [15256]
+INFO :: uvicorn.error :: 2022-01-06 08:17:17,142 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 08:17:17,145 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-06 08:17:17,145 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-06 08:17:35,276 :: It's a Home Page
+ERROR :: root :: 2022-01-06 15:12:50,161 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'
+INFO :: root :: 2022-01-06 15:15:03,465 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-06 15:15:03,465 :: Employee ID is : 21

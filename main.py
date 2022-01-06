@@ -112,7 +112,7 @@ def update_employee_details(id: int, emp: EmployeePayroll):
         return {"status": 500, "message": f"Error : {e}"}
 
 
-@app.post("/login/{id}")
+@app.post("/login/")
 def login(token: str = Header(None)):
     """
         desc: employee login by entering the token number generated at employee creation time
@@ -125,7 +125,7 @@ def login(token: str = Header(None)):
         return {"status": 200, "message": "Successfully Logged In", "data": check_emp_in_db}
     except Exception as e:
         logging.error(f"Error: {e}")
-        return {"status": 500, "message": "You are not authorized employee"}
+        return {"status": 401, "message": "You are not authorized employee"}
 
 
 if __name__ == "__main__":
