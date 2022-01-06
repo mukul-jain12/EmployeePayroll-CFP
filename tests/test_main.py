@@ -85,7 +85,8 @@ class TestCase:
                                                    "department": "string", "salary": 0, "start_date": "2022-01-06",
                                                    "notes": "string"})
         json_response = response.json()
-        assert json_response["data"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"
+        assert json_response[
+                   "data"] == "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"
 
     def test_cannot_add_employee(self):
         """
@@ -101,7 +102,8 @@ class TestCase:
         """
         desc: test case for login
         """
-        response = client.post("/login/", headers={"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
+        response = client.post("/login/", headers={
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
         json_response = response.json()
         assert json_response["message"] == "Successfully Logged In"
 
@@ -109,6 +111,29 @@ class TestCase:
         """
         desc: test case for add employee, but raise exception if employee detail is already in db
         """
-        response = client.post("/login/", headers={"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
+        response = client.post("/login/", headers={
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"})
         json_response = response.json()
         assert json_response["message"] == "You are not authorized employee"
+
+    def test_update_employee(self):
+        """
+        desc: test case for add employee, but raise exception if employee detail is already in db
+        """
+        response = client.put("/employee/6",
+                              json={"id": 6, "name": "Baburao Ganpatrao Apte", "profile": "image4", "gender": "Male",
+                                    "department": "Finance", "salary": 30000, "start_date": "2016-12-24",
+                                    "notes": "Jai Maharashtra"})
+        json_response = response.json()
+        assert json_response["message"] == "Successfully Updated The Employee Details"
+
+    def test_not_update_employee(self):
+        """
+        desc: test case for add employee, but raise exception if employee detail is already in db
+        """
+        response = client.put("/employee/18",
+                              json={"id": 18, "name": "Baburao Ganpatrao Apte", "profile": "image4", "gender": "Male",
+                                    "department": "Finance", "salary": 30000, "start_date": "2016-12-24",
+                                    "notes": "Jai Maharashtra"})
+        json_response = response.json()
+        assert json_response["message"] == "Error : Employee with this Id doesn't exist!"
