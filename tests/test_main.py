@@ -89,3 +89,23 @@ class TestCase:
         """
         response = client.delete("/employee/20")
         assert response.json() == {"status": 200, "message": "Successfully Deleted The Employee Details", "data": 20}
+
+    def test_add_employee(self):
+        """
+        desc: test case for add employee in database
+        """
+        response = client.post("/employee/", json={"id": 21, "name": "string", "profile": "string", "gender": "string",
+                                                   "department": "string", "salary": 0, "start_date": "2022-01-06",
+                                                   "notes": "string"})
+        assert response.json() == {"status": 200, "message": "Successfully Get All Employee Details",
+                                   "data": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMX0.Ol"
+                                           "-y8_Of90PB2atTqmf9plt_PJV1t7vFKslyqYdAXOA"}
+
+    def test_cannot_add_employee(self):
+        """
+        desc: test case for add employee, but raise exception if employee detail is already in db
+        """
+        response = client.post("/employee/", json={"id": 21, "name": "string", "profile": "string", "gender": "string",
+                                                   "department": "string", "salary": 0, "start_date": "2022-01-06",
+                                                   "notes": "string"})
+        assert response.json() == {"status": 402, "message": "Error : Employee with this Id Already exist in database"}

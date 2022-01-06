@@ -947,3 +947,33 @@ INFO :: uvicorn.error :: 2022-01-05 22:41:45,304 :: Uvicorn running on http://12
 INFO :: root :: 2022-01-05 22:41:47,315 :: It's a Home Page
 INFO :: root :: 2022-01-05 22:42:07,101 :: Successfully Get All Employee Details
 DEBUG :: root :: 2022-01-05 22:42:07,101 :: Employee Details are : [{'Id': 1, 'Name': 'Mukul Jain', 'ProfileImage': 'image1', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('85000.00'), 'StartDate': datetime.date(2022, 1, 2), 'Notes': 'Sincere and Intelligent'}, {'Id': 2, 'Name': 'Kachra Seth', 'ProfileImage': 'image3', 'Gender': 'Female', 'Department': 'HR', 'Salary': Decimal('15000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Kabadi wala'}, {'Id': 3, 'Name': 'Shivam Mishra', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('90000.00'), 'StartDate': datetime.date(2021, 12, 22), 'Notes': 'Sincere and Intelligent'}, {'Id': 4, 'Name': 'Raju', 'ProfileImage': 'image4', 'Gender': 'Male', 'Department': 'Other', 'Salary': Decimal('1000.00'), 'StartDate': datetime.date(2021, 12, 24), 'Notes': 'Topibaaz'}, {'Id': 5, 'Name': 'Shyaam', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('35000.00'), 'StartDate': datetime.date(2018, 12, 24), 'Notes': 'Dupe'}, {'Id': 6, 'Name': 'Baburao Ganpatrao Apte', 'ProfileImage': 'image3', 'Gender': 'Male', 'Department': 'Finance', 'Salary': Decimal('30000.00'), 'StartDate': datetime.date(2016, 12, 24), 'Notes': 'Jai Maharashtra'}, {'Id': 19, 'Name': 'Mukul', 'ProfileImage': 'Tring', 'Gender': 'Male', 'Department': 'HR', 'Salary': Decimal('50000000.20'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}, {'Id': 20, 'Name': 'alsjcn', 'ProfileImage': 'string', 'Gender': 'string', 'Department': 'string', 'Salary': Decimal('0.00'), 'StartDate': datetime.date(2022, 1, 5), 'Notes': 'string'}]
+INFO :: root :: 2022-01-06 07:26:34,672 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:26:35,365 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-06 07:26:35,541 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-06 07:26:35,753 :: Started server process [1724]
+INFO :: uvicorn.error :: 2022-01-06 07:26:35,754 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:26:35,754 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-06 07:26:35,756 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO :: root :: 2022-01-06 07:26:43,851 :: It's a Home Page
+INFO :: root :: 2022-01-06 07:27:11,750 :: Successfully Added Employee Details
+DEBUG :: root :: 2022-01-06 07:27:11,751 :: Employee Details are : id=21 name='string' profile='string' gender='string' department='string' salary=0.0 start_date=datetime.date(2022, 1, 6) notes='string'
+INFO :: root :: 2022-01-06 07:28:48,458 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-06 07:28:48,458 :: Employee ID is : 21
+INFO :: root :: 2022-01-06 07:29:53,731 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-06 07:29:53,733 :: Employee ID is : 21
+ERROR :: root :: 2022-01-06 07:30:23,962 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'
+INFO :: root :: 2022-01-06 07:32:18,147 :: Successfully Deleted The Employee Details
+DEBUG :: root :: 2022-01-06 07:32:18,148 :: Employee ID is : 21
+ERROR :: root :: 2022-01-06 07:32:35,540 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'
+INFO :: uvicorn.error :: 2022-01-06 07:32:48,820 :: Shutting down
+INFO :: uvicorn.error :: 2022-01-06 07:32:48,929 :: Waiting for application shutdown.
+INFO :: uvicorn.error :: 2022-01-06 07:32:48,929 :: Application shutdown complete.
+INFO :: uvicorn.error :: 2022-01-06 07:32:48,929 :: Finished server process [1724]
+INFO :: root :: 2022-01-06 07:32:49,883 :: Trying to establish the database connection
+INFO :: root :: 2022-01-06 07:32:49,909 :: Database Connection is Established
+DEBUG :: asyncio :: 2022-01-06 07:32:49,932 :: Using proactor: IocpProactor
+INFO :: uvicorn.error :: 2022-01-06 07:32:49,971 :: Started server process [10588]
+INFO :: uvicorn.error :: 2022-01-06 07:32:49,972 :: Waiting for application startup.
+INFO :: uvicorn.error :: 2022-01-06 07:32:49,973 :: Application startup complete.
+INFO :: uvicorn.error :: 2022-01-06 07:32:49,974 :: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR :: root :: 2022-01-06 07:33:07,400 :: Error: 1062 (23000): Duplicate entry '21' for key 'employee_details.PRIMARY'

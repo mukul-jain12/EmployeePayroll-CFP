@@ -69,10 +69,10 @@ def add_employee_details(emp: EmployeePayroll):
         logging.info("Successfully Added Employee Details")
         logging.debug(f"Employee Details are : {employee_details}")
         token_id = encode_token(emp.id)
-        return token_id
+        return {"status": 200, "message": "Successfully Get All Employee Details", "data": token_id}
     except Exception as e:
         logging.error(f"Error: {e}")
-        return {"status": 500, "message": f"Error : {e}"}
+        return {"status": 402, "message": "Error : Employee with this Id Already exist in database"}
 
 
 @app.delete("/employee/{id}")
